@@ -1,10 +1,10 @@
 import '@/styles/globals.css';
-import Link from 'next/link';
+import Layout from '../../components/Layout';
 
 export default function App({ Component, pageProps }) {
     return (
-        <Link>
+        <Layout>
             <Component {...pageProps} />
-        </Link>
+        </Layout>
     );
 }
