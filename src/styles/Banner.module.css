@@ -1,0 +1,22 @@
+.banner_comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fffbfb;
+    height: 50vh;
+}
+
+.banner_btn {
+    background-color: #53bac1;
+    width: fit-content;
+    padding: 10px 40px;
+}
+
+.banner_span {
+    color: #de0036;
+    font-weight: bold;
+}
+
+.banner_img {
+    width: auto;
+}

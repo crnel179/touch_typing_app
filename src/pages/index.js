@@ -1,5 +1,9 @@
 import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
+import Cards from '../../components/Cards';
+import Banner from '../../components/Banner';
+import Information from '../../components/Information';
+import Reviews from '../../components/Reviews';
 
 export default function Home() {
     return (
@@ -17,11 +21,20 @@ export default function Home() {
                 <link rel='icon' href='/favicon.ico' />
             </Head>
             <main className={styles.main}>
-                <div className={styles.description}>
-                    <div className={styles.banner}>Banner</div>
-                    <div className={styles.cards}>Cards</div>
-                    <div className={styles.info}>Information</div>
-                    <div className={styles.reviews}>Reviews</div>
+                <div className={styles.banner}>
+                    <Banner />
+                </div>
+                <div className={styles.cards}>
+                    <Cards />
+                </div>
+                <div className={styles.info}>
+                    <Information />
+                </div>
+                <div className={styles.reviews}>
+                    <Reviews />
+                </div>
+                <div className={styles.banner_img}>
+                    
                 </div>
             </main>
         </>
