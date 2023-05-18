@@ -4,6 +4,7 @@ import Cards from '../../components/Cards';
 import Banner from '../../components/Banner';
 import Information from '../../components/Information';
 import Reviews from '../../components/Reviews';
+import Layout from '../../components/Layout';
 
 export default function Home() {
     return (
@@ -32,9 +33,6 @@ export default function Home() {
                 </div>
                 <div className={styles.reviews}>
                     <Reviews />
-                </div>
-                <div className={styles.banner_img}>
-                    
                 </div>
             </main>
         </>

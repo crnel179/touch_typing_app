@@ -1,9 +1,25 @@
-.banner_comp {
+.banner_container {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     background-color: #fffbfb;
     height: 50vh;
+}
+
+.banner_left {
+    border: 1px solid #000;
+}
+
+.banner_right {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.banner_ex_mark {
+    position: relative;
+    width: 36px;
+    height: 45.15px;
 }
 
 .banner_btn {
@@ -18,5 +34,23 @@
 }
 
 .banner_img {
-    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.banner_e_section {
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    margin: 0 auto;
+    right: 0;
+    padding: 0 0 31px;
+}
+
+.banner_e {
+    width: 70px;
+    height: 70px;
 }
