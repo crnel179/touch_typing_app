@@ -106,6 +106,7 @@
     .banner_container {
         display: grid;
         grid-auto-columns: max-content;
+        grid-auto-flow: column;
     }
 
     .banner_ex_mark {
