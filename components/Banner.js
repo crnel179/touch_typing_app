@@ -4,8 +4,8 @@ import styles from '../src/styles/Banner.module.css';
 import ex_mark from '../public/assets/banner_ex_mark.jpg';
 import banner_img from '../public/assets/banner_img.jpg';
 import banner_e from '../public/assets/banner_e.jpg';
-import Button from '@mui/joy/Button';
-import { Card, Grid } from '@mui/joy';
+import Button from '@mui/base/Button';
+import { Grid } from '@mui/joy';
 
 const Banner = () => {
     return (

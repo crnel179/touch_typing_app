@@ -105,14 +105,20 @@
 @media screen and (max-width: 420px) {
     .banner_container {
         display: grid;
-        grid-auto-columns: max-content;
-        grid-auto-flow: column;
+        overflow: hidden;
+        grid-area: 1fr 1fr;
+        width: 200%;
     }
 
     .banner_ex_mark {
         position: fixed;
         display: flex;
         align-items: center;
+    }
+
+    .banner_text_n_button {
+        display: inline-flex;
+        width: 90%;
     }
 
     .banner_e_container {
